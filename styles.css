@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background: #121212;
+    color: #d8c28f;
+}
+
+.hero {
+    text-align: center;
+    padding: 40px 20px 20px;
+}
+
+.hero img {
+    max-width: 300px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d8c28f;
+    padding-bottom: 10px;
+}
+
+.overview p,
+.author p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.buy-button {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    background: #d8c28f;
+    color: #121212;
+    padding: 15px 30px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background 0.3s;
+    width: fit-content;
+}
+
+.buy-button:hover {
+    background: #b89d6b;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.secondary {
+    background: #a77b38;
+}
+
+.secondary:hover {
+    background: #8c6630;
+}
+
+.indie {
+    background: #6c4b3b;
+}
+
+.indie:hover {
+    background: #5a3f32;
+}
+
+.buy-buttons {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    max-width: 800px;
+    margin: 40px auto;
+}
+
+nav {
+    background: #121212;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+a {
+    color: #d8c28f;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
